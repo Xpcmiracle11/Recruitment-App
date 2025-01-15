@@ -1,0 +1,17 @@
+[
+    {
+        "name": "Dashboard",
+        "path": "/dashboard",
+        "icon": "dashboard"
+    },
+    {
+        "name": "Reports",
+        "path": "/reports",
+        "icon": "reports"
+    },
+    {
+        "name": "Analytics",
+        "path": "/analytics",
+        "icon": "analytics"
+    }
+]

@@ -1,0 +1,535 @@
+.signup {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: #132349;
+}
+.signup-header {
+    width: 100%;
+    text-align: center;
+    font-family: "Montserrat", serif;
+    font-size: 42px;
+    font-weight: 900;
+    color: #fd6804;
+    padding: 1rem;
+}
+.form-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+}
+.left-side {
+    display: none;
+}
+.right-side {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    padding: 1rem;
+    border-radius: 6px;
+}
+.form-tab {
+    width: 100%;
+}
+.row {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    width: 100%;
+}
+.field-label {
+    width: 100%;
+    font-family: "Hind Madurai", serif;
+    font-size: 14px;
+    color: #6b7280;
+    padding: 0.5rem;
+}
+.field {
+    font-family: "Hind Madurai", serif;
+    width: 100%;
+    border: 1px solid #d1d5db;
+    background-color: #f3f4f6;
+    color: #111827;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 16px;
+    transition: 0.01s ease;
+}
+.error {
+    border: 2px solid #f44336;
+}
+.other-source,
+.other-sourcer,
+.resume {
+    margin-top: 10px;
+}
+.skills-wrapper {
+    display: flex;
+}
+.skills {
+    border-radius: 5px 0px 0px 5px !important;
+}
+.skills-button {
+    border-radius: 0px 5px 5px 0px;
+    background-color: #fd6804;
+    border: 1px solid #fd6804;
+    color: #ffffff;
+    font-family: "Hind Madurai", serif;
+    font-size: 14px;
+    padding: 10px;
+}
+.button-tab {
+    width: 100%;
+}
+.button-row {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    padding: 0.5rem;
+}
+.previous-button-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.previous-button-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.previous-button,
+.next-button {
+    padding: 5px 10px;
+    background-color: #fd6804;
+    border: 1px solid #fd6804;
+    color: #ffffff;
+    font-family: "Hind Madurai", serif;
+    font-size: 14px;
+    border-radius: 5px;
+    transition: 0.3s ease;
+}
+.previous-button:hover,
+.next-button:hover {
+    box-shadow: 0 1px 10px rgba(252, 103, 3, 0.66);
+    transform: scale(1.02);
+}
+.modal-container {
+    background-color: #f5f5f5;
+    padding: 20px;
+    border-radius: 8px;
+    width: 90%;
+    margin-top: 20px;
+    position: relative;
+}
+.modal-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.check-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 30%;
+}
+.check {
+    width: 30%;
+}
+.modal-message {
+    font-family: "Hind Vadodara", serif;
+    font-size: 28px;
+    text-align: center;
+    font-weight: bold;
+    color: #132349;
+    padding: 1rem;
+}
+.modal-button-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.modal-confirm-button {
+    font-family: "Hind Madurai", serif;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: bold;
+    width: 100%;
+    padding: 10px;
+    background-color: #fd6804;
+    border: 1px solid #fd6804;
+    border-radius: 5px;
+}
+@media (min-width: 576px) and (max-width: 767px) {
+    .modal-container {
+        background-color: #f5f5f5;
+        padding: 20px;
+        border-radius: 8px;
+        width: 70%;
+        margin-top: 20px;
+        position: relative;
+    }
+    .modal-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .check-container {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        height: 30%;
+    }
+    .check {
+        width: 30%;
+    }
+    .modal-message {
+        font-family: "Hind Vadodara", serif;
+        font-size: 28px;
+        text-align: center;
+        font-weight: bold;
+        color: #132349;
+        padding: 1rem;
+    }
+    .modal-button-container {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .modal-confirm-button {
+        font-family: "Hind Madurai", serif;
+        color: #ffffff;
+        font-size: 16px;
+        font-weight: bold;
+        width: 100%;
+        padding: 10px;
+        background-color: #fd6804;
+        border: 1px solid #fd6804;
+        border-radius: 5px;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    .modal-container {
+        background-color: #f5f5f5;
+        padding: 20px;
+        border-radius: 8px;
+        width: 60%;
+        margin-top: 20px;
+        position: relative;
+    }
+    .modal-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .check-container {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        height: 30%;
+    }
+    .check {
+        width: 30%;
+    }
+    .modal-message {
+        font-family: "Hind Vadodara", serif;
+        font-size: 28px;
+        text-align: center;
+        font-weight: bold;
+        color: #132349;
+        padding: 1rem;
+    }
+    .modal-button-container {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .modal-confirm-button {
+        font-family: "Hind Madurai", serif;
+        color: #ffffff;
+        font-size: 16px;
+        font-weight: bold;
+        width: 100%;
+        padding: 10px;
+        background-color: #fd6804;
+        border: 1px solid #fd6804;
+        border-radius: 5px;
+    }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+    .signup {
+        height: 100vh;
+    }
+    .left-side {
+        display: flex;
+        flex-direction: column;
+        background-color: #46567c;
+        width: 35%;
+        border-radius: 6px 0px 0px 6px;
+    }
+    .logo-container {
+        display: flex;
+        justify-content: center;
+    }
+    .logo {
+        width: 70%;
+        padding: 1rem;
+    }
+    .caption-container {
+        display: flex;
+        justify-content: center;
+        padding: 1rem;
+        font-family: "Hind Vadodara", serif;
+        font-size: 22px;
+    }
+    .caption {
+        text-align: center;
+        color: #ffffff;
+    }
+    .right-side {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 65%;
+        height: 100%;
+        border-radius: 0px 6px 6px 0px;
+    }
+    .row {
+        display: flex;
+        flex-direction: row;
+    }
+    .modal-container {
+        background-color: #f5f5f5;
+        padding: 20px;
+        border-radius: 8px;
+        width: 50%;
+        margin-top: 20px;
+        position: relative;
+    }
+    .modal-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .check-container {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        height: 30%;
+    }
+    .check {
+        width: 30%;
+    }
+    .modal-message {
+        font-family: "Hind Vadodara", serif;
+        font-size: 28px;
+        text-align: center;
+        font-weight: bold;
+        color: #132349;
+        padding: 1rem;
+    }
+    .modal-button-container {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .modal-confirm-button {
+        font-family: "Hind Madurai", serif;
+        color: #ffffff;
+        font-size: 16px;
+        font-weight: bold;
+        width: 100%;
+        padding: 10px;
+        background-color: #fd6804;
+        border: 1px solid #fd6804;
+        border-radius: 5px;
+    }
+}
+@media (min-width: 1200px) and (max-width: 1399px) {
+    .signup {
+        height: 100vh;
+    }
+    .form-container {
+        height: fit-content;
+    }
+    .left-side {
+        display: flex;
+        flex-direction: column;
+        background-color: #46567c;
+        width: 35%;
+        border-radius: 6px 0px 0px 6px;
+    }
+    .logo-container {
+        display: flex;
+        justify-content: center;
+    }
+    .logo {
+        width: 70%;
+        padding: 1rem;
+    }
+    .caption-container {
+        display: flex;
+        justify-content: center;
+        padding: 1rem;
+        font-family: "Hind Vadodara", serif;
+        font-size: 22px;
+    }
+    .caption {
+        text-align: center;
+        color: #ffffff;
+    }
+    .right-side {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 65%;
+        height: 100%;
+        border-radius: 0px 6px 6px 0px;
+    }
+    .row {
+        display: flex;
+        flex-direction: row;
+    }
+    .modal-container {
+        background-color: #f5f5f5;
+        padding: 20px;
+        border-radius: 8px;
+        width: 50%;
+        margin-top: 20px;
+        position: relative;
+    }
+    .modal-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .check-container {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        height: 30%;
+    }
+    .check {
+        width: 30%;
+    }
+    .modal-message {
+        font-family: "Hind Vadodara", serif;
+        font-size: 28px;
+        text-align: center;
+        font-weight: bold;
+        color: #132349;
+        padding: 1rem;
+    }
+    .modal-button-container {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .modal-confirm-button {
+        font-family: "Hind Madurai", serif;
+        color: #ffffff;
+        font-size: 16px;
+        font-weight: bold;
+        width: 100%;
+        padding: 10px;
+        background-color: #fd6804;
+        border: 1px solid #fd6804;
+        border-radius: 5px;
+    }
+}
+@media (min-width: 1400px) {
+    .signup {
+        height: 100vh;
+    }
+    .form-container {
+        height: fit-content;
+    }
+    .left-side {
+        display: flex;
+        flex-direction: column;
+        background-color: #46567c;
+        width: 35%;
+        border-radius: 6px 0px 0px 6px;
+    }
+    .logo-container {
+        display: flex;
+        justify-content: center;
+    }
+    .logo {
+        width: 70%;
+        padding: 1rem;
+    }
+    .caption-container {
+        display: flex;
+        justify-content: center;
+        padding: 1rem;
+        font-family: "Hind Vadodara", serif;
+        font-size: 22px;
+    }
+    .caption {
+        text-align: center;
+        color: #ffffff;
+    }
+    .right-side {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 65%;
+        height: 100%;
+        border-radius: 0px 6px 6px 0px;
+    }
+    .row {
+        display: flex;
+        flex-direction: row;
+    }
+    .modal-container {
+        background-color: #f5f5f5;
+        padding: 20px;
+        border-radius: 8px;
+        width: 50%;
+        margin-top: 20px;
+        position: relative;
+    }
+    .modal-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .check-container {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        height: 30%;
+    }
+    .check {
+        width: 30%;
+    }
+    .modal-message {
+        font-family: "Hind Vadodara", serif;
+        font-size: 28px;
+        text-align: center;
+        font-weight: bold;
+        color: #132349;
+        padding: 1rem;
+    }
+    .modal-button-container {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .modal-confirm-button {
+        font-family: "Hind Madurai", serif;
+        color: #ffffff;
+        font-size: 16px;
+        font-weight: bold;
+        width: 100%;
+        padding: 10px;
+        background-color: #fd6804;
+        border: 1px solid #fd6804;
+        border-radius: 5px;
+    }
+}

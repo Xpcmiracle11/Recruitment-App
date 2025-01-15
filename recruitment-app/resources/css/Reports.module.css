@@ -1,0 +1,162 @@
+.reports {
+    width: 100%;
+    height: 100%;
+    background-color: #f5f5f5;
+    display: flex;
+}
+.reports-container {
+    width: 100%;
+    height: 100%;
+}
+.graph-container {
+    width: 100%;
+    height: calc(100vh - 8vh);
+    overflow-y: scroll;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.filter-container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+.filter {
+    width: 100%;
+    font-family: "Hind Madurai", serif;
+    border: 1px solid #d1d5db;
+    background-color: #f3f4f6;
+    color: #111827;
+    border-radius: 5px 5px 5px 5px;
+    padding: 6px;
+    font-size: 14px;
+}
+.download-button {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fd6804;
+    border-radius: 5px 5px 5px 5px;
+    border: none;
+    transition: 0.3s ease;
+}
+.download-icon {
+    width: 30px;
+    height: 30px;
+    padding: 0.5rem;
+}
+.download-button:hover {
+    box-shadow: 0 1px 10px rgba(252, 103, 3, 0.66);
+}
+.loading-icon {
+    animation: rotate 1s linear infinite;
+}
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+.row {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.graph-card {
+    width: 100%;
+    border: 1px solid #d3d3d3;
+    border-radius: 6px;
+    padding: 0.5rem;
+    background-color: #ffff;
+}
+.card-header {
+    width: 100%;
+}
+.header-container {
+    width: 100%;
+    padding: 1rem;
+}
+.header {
+    text-align: center;
+    font-family: "Hind Vadodara", serif;
+    font-size: 16px;
+    color: #28282b;
+}
+.graph {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    width: 100%;
+    height: fit-content;
+    box-sizing: border-box;
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+    .filter-container {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        gap: 1rem;
+        justify-content: right;
+    }
+    .filter {
+        width: 20%;
+    }
+}
+@media (min-width: 1200px) and (max-width: 1399px) {
+    .filter-container {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        gap: 1rem;
+        justify-content: right;
+    }
+    .filter {
+        width: 20%;
+    }
+    .row {
+        display: flex;
+        flex-direction: row;
+    }
+    .experience-card {
+        width: 40%;
+    }
+    .application-card {
+        width: 30%;
+    }
+    .source-card {
+        width: 30%;
+    }
+}
+@media (min-width: 1400px) {
+    .filter-container {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        gap: 1rem;
+        justify-content: right;
+    }
+    .filter {
+        width: 20%;
+    }
+    .row {
+        display: flex;
+        flex-direction: row;
+    }
+    .experience-card {
+        width: 50%;
+    }
+    .application-card {
+        width: 25%;
+    }
+    .source-card {
+        width: 25%;
+    }
+}

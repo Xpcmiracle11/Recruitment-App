@@ -1,0 +1,49 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+    padding: 0;
+    margin: 0;
+}
+p {
+    padding: 0;
+    margin: 0;
+}
+input {
+    box-sizing: border-box;
+}
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+textarea,
+select,
+input {
+    outline: none;
+}
+textarea:focus,
+select:focus,
+input:focus {
+    border: 2px solid #d3d3d3;
+    background-color: #ffff;
+}
+button {
+    cursor: pointer;
+}
+span {
+    font-family: "Hind Madurai", serif !important;
+    font-weight: bold !important;
+    font-size: 12px !important;
+    color: #28282b !important;
+}
