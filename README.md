@@ -2,7 +2,7 @@
 
 ## Overview
 
-The Recruitment Management System is a web-based application designed to streamline the hiring process. Built with Laravel, React, Inertia.js, and TypeScript, it allows recruiters to manage applicants, track experience levels, and generate insightful reports.
+The Recruitment Management System is a web-based application designed to streamline the hiring process. Built with Laravel, React, and Inertia.js, it allows recruiters to manage applicants, track experience levels, and generate insightful reports.
 
 ## Features
 
